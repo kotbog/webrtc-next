@@ -1,0 +1,17 @@
+@import "@/app/globals";
+
+.main {
+   background: $primary-gray;
+   display: flex;
+   align-items: center;
+   padding: 5px;
+}
+
+.leave {
+   color: #fff;
+   background: $leave-color;
+   border: none;
+   border-radius: 5px;
+   padding: 10px 15px;
+   cursor: pointer;
+}

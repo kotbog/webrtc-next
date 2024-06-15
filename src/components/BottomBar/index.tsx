@@ -1,13 +1,12 @@
-import MediaButtons from "@/src/components/MediaButtons";
 import styles from './styles.module.scss'
+import MediaButtons from "@/src/components/MediaButtons";
 
 
-export default function Index() {
+export default function BottomBar() {
 
 
-    return <div className="grid grid-cols-[2fr_8fr_1fr] justify-center">
+    return <div className={styles.main}>
         <MediaButtons muted={false} video={false}/>
-        <div>123</div>
-        <div>123</div>
+        <button className={styles.leave}>Leave</button>
     </div>
 }
